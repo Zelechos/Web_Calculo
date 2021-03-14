@@ -14,7 +14,7 @@ body{
 
 section{
     position: relative;
-    padding: 100px;
+    padding: 50px;
 }
 
 .header{
@@ -38,6 +38,7 @@ section{
 .header .toggle img{
     max-width: 40px;
     cursor: pointer;
+    filter: invert(1);
 }
 
 .banner{
@@ -77,6 +78,28 @@ section{
     font-size: 1.2em;
 }
 
+.banner2 .content{
+    position: relative;
+    max-width: 900px;
+    text-align: center;
+    z-index: 1;
+}
+
+.banner2 .content h2{
+    color: #fff;
+    font-size: 5em;
+}
+
+.banner2 .content p{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.poster{
+    margin-top: 30px;
+    width:150px;
+}
+
 .btn{
     position: relative;
     display: inline-block;
@@ -96,6 +119,7 @@ section{
     object-fit: cover;
     opacity: 0.9;
 }
+
 .about{
     position: relative;
     width: 100%;
@@ -107,8 +131,7 @@ section{
 .about .contentBx{
     min-width: 50%;
     width: 50%;
-    text-align: center;
-    padding-right: 40px;
+    padding-right: 100px;
 }
 .titleText{
     font-weight: 600;
@@ -120,12 +143,20 @@ section{
 .text{
     color: #fff;
     font-size: 1em;
+    padding: 5px;
 }
+
+.textFrase{
+    color: #fff;
+    font-size: 1em;
+    padding: 30px;
+}
+
 .about .imgBx{
     position: relative;
-    min-width: 50%;
-    width: 50%;
-    min-height: 600px;
+    min-width: 30%;
+    width: 30%;
+    min-height: 700px;
 }
 
 .banner2, .banner3{
@@ -174,17 +205,16 @@ section{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 40px;
 }
 
 .temario .temariolist .box{
     position: relative;
-    min-width: 300px;    
-    height: 480px;
+    min-width: 350px;    
+    height: 200px;
     background: #191919;
     transition: 0.5s;
-    margin: 70px;
-    margin-bottom: 120px;
+    margin: 20px;
+    margin-bottom: 60px;
 }
 
 .temario .temariolist:hover .box{
@@ -213,7 +243,7 @@ section{
     color: #fff;
     font-weight: 500;
     line-height: 1.2em;
-    margin-top: 1000px;
+    margin-top: 400px;
 }
 
 .temario .temariolist .box .content h2 span{
@@ -276,6 +306,13 @@ section{
         font-size: 1em;
     }
 
+    .banner2 .content h2 {
+        font-size: 2.5em;
+    }
+
+    .banner2 .content p {
+        font-size: 1em;
+    }
     .about {
         flex-direction: column;
     }
@@ -295,8 +332,8 @@ section{
         position: relative;
         min-width: initial;
         width:500px;
-        height: 500px;
-        margin-bottom: 100px;
+        height: 200px;
+        margin-bottom: 70px;
     }
 
     .temario .temariolist .box .imgBx {
@@ -313,7 +350,7 @@ section{
     }
 
     .temario .temariolist .box .content h2 {
-        margin-top: 1000px;
+        margin-top: 400px;
     }
 
     .footer .sci li a img {
